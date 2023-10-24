@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/assets/media/fonts/Poppins/Poppins-Medium.ttf');
+}
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    font-size: 10rem;
+    background: linear-gradient(135deg, #24d5d5, #2188c8, #1da2a2, #09659e);
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.display {
+    background-color: #114e74;
+    width: 386px;
+    height: 70px;
+    margin-top: 60px;
+    margin:auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-size: 22px;
+    text-align: end;
+    border: none;
+    padding: 10px;
+}
+.calculator {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 50px 50px 50px 50px; */
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+    margin: auto;
+    margin-top: none;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #c1f0f6;
+    color: #114e74;
+    border: none;
+    margin: 1px;
+    cursor: pointer;
+    font-family: 'Poppins';
+    font-size: 1.1rem;
+}
+
+button:hover {
+    background-color: #b6e2e8;
+}
+.DEL {
+    color: rgb(198, 101, 101);
+}
+.equal {
+    color: rgb(17, 151, 8);
+    font-size: 23px;
+    background-color: #b0ebf2;
+}
